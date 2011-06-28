@@ -1,4 +1,4 @@
-F::Application.routes.draw do
+Ichijiku::Application.routes.draw do
   # get "chips/index"
   resources :chips
   root :to => "chips#index"
