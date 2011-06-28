@@ -1,4 +1,8 @@
 F::Application.routes.draw do
+  # get "chips/index"
+  resources :chips
+  root :to => "chips#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

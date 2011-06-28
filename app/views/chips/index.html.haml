@@ -1,0 +1,6 @@
+%h1 Color Tweets
+- @tw.each do |t|
+  #colors
+    - convert_hex(t.text).each do |ch|
+      %font{:color => "#{ch}"}■
+    #original （ "#{t.text}"）
